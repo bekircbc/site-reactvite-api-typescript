@@ -24,7 +24,8 @@ function App() {
 				{books.map((book, index) => {
 					return (
 						<li key={index}>
-							{book.title} by {book.author}
+							<span className="bookTitle">{book.title}</span>{' '}
+							<span className="bookAuthor"> {book.author}</span>
 						</li>
 					);
 				})}

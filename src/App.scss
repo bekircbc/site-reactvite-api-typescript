@@ -1,19 +1,32 @@
 body {
 	text-align: center;
+	background-color: azure;
 	.App {
 		ul {
 			display: flex;
 			justify-content: center;
 			flex-wrap: wrap;
 			align-items: center;
+			gap: 1rem;
+
 			li {
 				display: flex;
+				flex-direction: column;
 				justify-content: center;
 				flex-wrap: wrap;
 				align-items: center;
-				width: 20rem;
-				height: 20rem;
+				width: 13rem;
+				height: 13rem;
 				gap: 1.4rem;
+				border: 1px solid #ccc;
+				border-radius: 0.5rem;
+				background-color: rgb(91, 150, 142);
+			}
+			.bookTitle {
+				color: rgb(28, 28, 44);
+			}
+			.bookAuthor {
+				color: darkmagenta;
 			}
 		}
 	}
